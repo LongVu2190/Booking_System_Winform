@@ -243,6 +243,7 @@
             this.Controls.Add(this.USER);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Payment";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "THANH TOÁN";
             ((System.ComponentModel.ISupportInitialize)(this.PAID_MOVIES)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NOT_PAID_MOVIES)).EndInit();
